@@ -1,0 +1,512 @@
+/******************************
+ PROJECT STYLING BELOW - YOU CAN DO WHATEVER YOU LIKE WITH THIS STYLESHEET
+*******************************/
+
+/* Main styles */
+
+html,body{
+    width:100%;
+    height:100%;
+    font-size: 12px;
+    text-align: center;
+}
+
+body {
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 60px;
+    color: #C7C8CA;
+    line-height: 45px;
+}
+
+@media screen and (min-width: 480px) {
+    h2 {
+        font-size: 42px;
+    }
+}
+
+p {
+    max-width: 560px;
+    padding: 5px 20px;
+    margin: 0 auto;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+strong { font-weight: bold; }
+
+@media screen and (min-width: 480px) {
+    p {
+        font-size: 22px;
+        padding-top: 20px;
+        line-height: 1.3em;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    p { padding: 10px 0; }
+}
+
+@media screen and (max-width: 1023px) {
+    img {margin: 0 auto;}
+}
+
+
+/******************************
+ Original Jquery.Stellar styling
+*******************************/
+
+.slides {
+    float: left;
+    width: 100%;
+    margin-top: 40px;
+    background-color: #0A0C10; /* Fallback for no gradient support */
+    background: linear-gradient(#0A0C10, #410404);
+}
+
+.slide {
+    width: 100%;
+    color: #FFF;
+    position: relative;
+}
+
+@media screen and (min-width: 480px) {
+    .slide {
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+}
+
+.slide img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.clearer { clear: both; }
+
+.caption {
+    font-size: 1em; 
+    padding-top: 8px;
+}
+
+.heading-container {
+    max-width: 100%;
+}
+
+.heading-container img {
+    max-width: 80%;
+    height: auto;
+    padding: 0 20px;
+    -webkit-box-sizing: border-box; /* Safari 3.0 - 5.0, Chrome 1 - 9, Android 2.1 - 3.x */
+    -moz-box-sizing: border-box; /* Firefox 1 - 28 */
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 800px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+    .heading-container {
+        width: 560px;
+        margin: 40px auto 0;
+    }
+
+    .heading-container img { margin-left: -200px; width: 100%; height: auto; }
+}
+
+/******************************
+ SLIDE 1 
+*******************************/
+
+.slide--intro {
+    background: transparent url('../images/parallax-images/gotingco-header-with-text-light.jpg') top center scroll no-repeat;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+    padding-bottom: 10%;
+}
+
+@media screen and (min-width: 801px) {
+    .slide--intro {
+        background-image: url('../images/parallax-images/gotingco-header-with-text-1024.jpg');
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .slide--intro { background-image: url('../images/parallax-images/gotingco-header-with-text-1280.jpg'); }
+}
+
+@media screen and (min-width: 1281px) {
+    .slide--intro { background-image: url('../images/parallax-images/gotingco-header-with-text-1366.jpg'); }
+}
+
+@media screen and (min-width: 1367px) {
+    .slide--intro { background-image: url('../images/parallax-images/gotingco-header-with-text-1680.jpg'); }
+}
+
+@media screen and (min-width: 1681px) {
+    .slide--intro { background-image: url('../images/parallax-images/gotingco-header-with-text-1920.jpg'); }
+}
+
+@media screen and (min-width: 1921px) {
+    .slide--intro { background-image: url('../images/parallax-images/gotingco-header-with-text-2560.jpg'); }
+}
+
+.slide--intro img {
+    width: 100%;
+    height: auto;
+    margin-top: -20px;
+}
+
+.slide--intro h1, .slide--intro h2 {
+    text-indent: -9999px;
+} 
+
+@media screen and (min-width: 801px) {
+    .slide--intro img {
+        margin-top: 0;
+    }
+}
+
+/******************************
+ SLIDE 2
+*******************************/
+
+/******************************
+ SLIDE 3 
+*******************************/
+
+.slide--bmw {
+    background: transparent url('../images/gotingco-bg-bmw-light.jpg') top center scroll no-repeat;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 801px) {
+    .slide--bmw {
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translateZ(0);
+        background-image: url('../images/parallax-images/gotingco-bg-bmw-1024.jpg');
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .slide--bmw { background-image: url('../images/parallax-images/gotingco-bg-bmw-1280.jpg'); }
+}
+
+@media screen and (min-width: 1281px) {
+    .slide--bmw { background-image: url('../images/parallax-images/gotingco-bg-bmw-1366.jpg'); }
+}
+
+@media screen and (min-width: 1367px) {
+    .slide--bmw { background-image: url('../images/parallax-images/gotingco-bg-bmw-1680.jpg'); }
+}
+
+@media screen and (min-width: 1681px) {
+    .slide--bmw { background-image: url('../images/parallax-images/gotingco-bg-bmw-1920.jpg'); }
+}
+
+@media screen and (min-width: 1921px) {
+    .slide--bmw { background-image: url('../images/parallax-images/gotingco-bg-bmw-2560.jpg'); }
+}
+
+@media screen and (min-width: 1024px) {
+    .desktop-slides .slide--bmw {
+        padding-top: 500px;
+    }
+}
+
+.slide--bmw .transparent-black {
+    background-color: rgba(10,12,16,0.6);
+}
+
+/******************************
+ SLIDE 3 
+*******************************/
+
+.slide--videos { padding-top: 0; }
+
+/******************************
+ SLIDE 5
+*******************************/
+
+.slide--newspapers {
+    background: transparent url('../images/gotingco-newspaper-bg-light.jpg') top center scroll no-repeat;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+@media screen and (min-width: 801px) {
+    .slide--newspapers {
+        background-image: url('../images/parallax-images/gotingco-newspaper-bg-1024.jpg');
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translateZ(0);
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .slide--newspapers { background-image: url('../images/parallax-images/gotingco-newspaper-bg-1280.jpg'); }
+}
+
+@media screen and (min-width: 1281px) {
+    .slide--newspapers { background-image: url('../images/parallax-images/gotingco-newspaper-bg-1366.jpg'); }
+}
+
+@media screen and (min-width: 1367px) {
+    .slide--newspapers { background-image: url('../images/parallax-images/gotingco-newspaper-bg-1680.jpg'); }
+}
+
+@media screen and (min-width: 1681px) {
+    .slide--newspapers { background-image: url('../images/parallax-images/gotingco-newspaper-bg-1920.jpg'); }
+}
+
+@media screen and (min-width: 1921px) {
+    .slide--newspapers { background-image: url('../images/parallax-images/gotingco-newspaper-bg-2560.jpg'); }
+}
+
+/******************************
+ SLIDE 6
+*******************************/
+
+.slide5--in-the-dock {
+    background: transparent url('../images/gotingco-robertson-in-the-dock-bg-light.jpg') top center scroll no-repeat;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+@media screen and (min-width: 801px) {
+    .slide5--in-the-dock {
+        background-image: url('../images/parallax-images/gotingco-robertson-in-the-dock-bg-1024.jpg');
+        
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .slide5--in-the-dock { background-image: url('../images/parallax-images/gotingco-robertson-in-the-dock-bg-1280.jpg'); }
+}
+
+@media screen and (min-width: 1281px) {
+    .slide5--in-the-dock { background-image: url('../images/parallax-images/gotingco-robertson-in-the-dock-bg-1366.jpg'); }
+}
+
+@media screen and (min-width: 1367px) {
+    .slide5--in-the-dock { background-image: url('../images/parallax-images/gotingco-robertson-in-the-dock-bg-1680.jpg'); }
+}
+
+@media screen and (min-width: 1681px) {
+    .slide5--in-the-dock { background-image: url('../images/parallax-images/gotingco-robertson-in-the-dock-bg-1920.jpg'); }
+}
+
+@media screen and (min-width: 1921px) {
+    .slide5--in-the-dock { background-image: url('../images/parallax-images/gotingco-robertson-in-the-dock-bg-2560.jpg'); }
+}
+
+/******************************
+ SLIDE 7
+*******************************/
+
+/******************************
+ SLIDE 8
+*******************************/
+
+.slide7--did-not-know {
+    background: url('../images/gotingco-robertson-fb-page-bg-light.jpg') top center scroll no-repeat;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+@media screen and (min-width: 801px) {
+    .slide7--did-not-know {
+        background-image: url('../images/parallax-images/gotingco-robertson-fb-page-bg-1024.jpg');
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translateZ(0);
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .slide7--did-not-know { background-image: url('../images/parallax-images/gotingco-robertson-fb-page-bg-1280.jpg'); }
+}
+
+@media screen and (min-width: 1281px) {
+    .slide7--did-not-know { background-image: url('../images/parallax-images/gotingco-robertson-fb-page-bg-1366.jpg'); }
+}
+
+@media screen and (min-width: 1367px) {
+    .slide7--did-not-know { background-image: url('../images/parallax-images/gotingco-robertson-fb-page-bg-1680.jpg'); }
+}
+
+@media screen and (min-width: 1681px) {
+    .slide7--did-not-know { background-image: url('../images/parallax-images/gotingco-robertson-fb-page-bg-1920.jpg'); }
+}
+
+@media screen and (min-width: 1921px) {
+    .slide7--did-not-know { background-image: url('../images/parallax-images/gotingco-robertson-fb-page-bg-2560.jpg'); }
+}
+
+.slide--credits {
+    padding-top: 2%;
+    padding-bottom: 60px;
+    background-color: #2D2D2D;
+    background-position: top center!IMPORTANT;
+}
+
+.slide--credits p, .slide--credits li {
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+
+/******************************
+ OTHER STYLES
+*******************************/
+
+.fixed-background {
+    background-attachment: fixed; /* Required for Parallax backgrounds, enabled by Jquery */
+}
+
+.img-left, .img-right {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 1024px) {
+    .img-left {
+        width: auto;
+        height: auto;
+        float: left;
+        margin: 20px 20px 20px -160px;
+    }
+
+    .img-right {
+        width: auto;
+        height: auto;
+        float: right;
+        margin: 20px -160px 20px 20px;
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+@media screen and (max-width: 799px) {
+    .center img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.video {
+    width: 100%;
+    height: auto;
+    margin: 40px 0;
+}
+
+.drop-cap {
+    float: left;
+    padding: 6px 5px 0 0;
+}
+
+.drop-cap img {
+    margin: 0;
+    height: 42px;
+}
+
+.author {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1024px) {
+    .drop-cap {
+        width: 100px;
+        margin-left: -113px;
+        text-align: right;
+        padding: 8px 8px 0 8px;
+		opacity: 0.6;
+    }
+    .drop-cap img { height: auto; }
+}
+    
+.red-emphasis {
+    color: #E70900;
+    font-weight: bold;
+}
+
+.img-caption-left {
+    float: left;
+    display: block;
+    width: 100%;
+    clear: both;
+    margin-top: 5px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.img-caption-right {
+    float: right;
+    display: block;
+    width: 100%;
+    clear: both;
+    margin-top: 5px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 1024px) {
+    .img-caption-left {
+        width: 250px;
+        margin: 5px 20px 20px -160px;
+    }
+    .img-caption-right {
+        width: 250px;
+        margin: 5px -160px 20px 20px;
+    }
+}
+
+.video-ie8 { display: none; } /* Enabled in IE8 stylesheet */
+
+/******************************
+Slide size mods
+*******************************/
+
+.slide--600 .wrapper { max-width: 640px; }
+.slide--800 .wrapper { max-width: 840px; }
+
+/******************************
+Slide position mods
+*******************************/
+
+.slide--left { text-align: left; }
+.slide--right { text-align: right; }
+
+/******************************
+Helpers
+*******************************/
+
+.white-text { color: #FFF; }
+
+.no-mb { margin-bottom: 0!IMPORTANT; }
+
+.ptl { padding-top: 20px; }
+
+.float-l { float: left; }
+.float-r { float: right; }
+
+/******************************
+IE styles
+*******************************/
+
+.is-ie section {
+    background-attachment: scroll!IMPORTANT;
+}
+
+
